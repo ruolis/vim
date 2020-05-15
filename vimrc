@@ -63,8 +63,8 @@ set noautochdir
 set ambiwidth=double
 
 set wildmenu
-set completeopt=longest,menu
-set wildmode=longest,list,full
+" set completeopt=longest,menu
+" set wildmode=longest,list,full
 
 set encoding=utf-8 fileencodings=ucs-bom,utf-8,cp936 fileencoding=utf-8
 
@@ -99,9 +99,9 @@ set directory=~/.vim/tmp/directory
 " Cursor
 "
 "###############################################################################
-let &t_SI = "\<Esc>]50;CursorShape=1\x7"
-let &t_SR = "\<Esc>]50;CursorShape=2\x7"
-let &t_EI = "\<Esc>]50;CursorShape=0\x7"
+" let &t_SI = "\<Esc>]50;CursorShape=1\x7"
+" let &t_SR = "\<Esc>]50;CursorShape=2\x7"
+" let &t_EI = "\<Esc>]50;CursorShape=0\x7"
 
 
 "###############################################################################
@@ -197,6 +197,9 @@ Plug 'Yggdroot/indentLine'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'ntpeters/vim-better-whitespace'
+
+Plug 'junegunn/fzf', { 'dir': '~/.vim/plug/fzf', 'do': './install' }
+Plug 'junegunn/fzf.vim'
 
 call plug#end()
 
