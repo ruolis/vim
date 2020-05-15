@@ -220,3 +220,17 @@ nnoremap <silent> <leader>t :NERDTreeToggle<cr>
 "###############################################################################
 let g:strip_whitespace_on_save=1
 let g:strip_whitespace_confirm=0
+
+
+"###############################################################################
+"
+" FZF
+"
+"###############################################################################
+nnoremap <silent> <c-f> :Rg<cr>
+nnoremap <silent> <c-p> :Files<cr>
+nnoremap <silent> <c-l> :Lines<cr>
+nnoremap <silent> <c-h> :History<cr>
+
+let g:fzf_preview_window='right:60%'
+let g:fzf_commits_log_options='--graph --color=always --format="%C(auto)%h%d %s %C(black)%C(bold)%cr"'
