@@ -71,8 +71,6 @@ set encoding=utf-8 fileencodings=ucs-bom,utf-8,cp936 fileencoding=utf-8
 set splitright
 set splitbelow
 
-set t_vb=()
-
 set noshowcmd
 set noshowmode
 set matchtime=2
