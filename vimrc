@@ -27,7 +27,7 @@ syntax on
 syntax enable
 
 set number
-set relativenumber
+" set relativenumber
 
 set backup
 set backupdir=~/.vim/tmp/backupdir
@@ -225,7 +225,7 @@ let g:strip_whitespace_confirm=0
 " FZF
 "
 "###############################################################################
-nnoremap <silent> <c-f> :Rg<cr>
+" nnoremap <silent> <c-f> :Rg<cr>
 nnoremap <silent> <c-p> :Files<cr>
 nnoremap <silent> <c-l> :Lines<cr>
 nnoremap <silent> <c-h> :History<cr>
